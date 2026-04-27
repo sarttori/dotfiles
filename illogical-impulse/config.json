@@ -37,7 +37,7 @@
             "automatic": false,
             "backgroundTransparency": 0.4,
             "contentTransparency": 0.5,
-            "enable": true
+            "enable": false
         },
         "wallpaperTheming": {
             "enableAppsAndShell": true,
@@ -80,7 +80,7 @@
             "workspaceZoom": 1.1
         },
         "thumbnailPath": "",
-        "wallpaperPath": "/home/sarttori/Pictures/Wallpapers/bunnies-road.png",
+        "wallpaperPath": "/home/sarttori/Pictures/Wallpapers/Tokyo_Pink.png",
         "widgets": {
             "clock": {
                 "cookie": {
@@ -289,7 +289,7 @@
         },
         "night": {
             "automatic": true,
-            "colorTemperature": 5000,
+            "colorTemperature": 3108,
             "from": "19:00",
             "to": "06:30"
         }
@@ -555,6 +555,30 @@
             "wallpaper": false
         },
         "triggerCondition": {
+            "fileKeywords": [
+                "anime",
+                "booru",
+                "ecchi",
+                "hentai",
+                "yande.re",
+                "konachan",
+                "breast",
+                "nipples",
+                "pussy",
+                "nsfw",
+                "spoiler",
+                "girl"
+            ],
+            "linkKeywords": [
+                "hentai",
+                "porn",
+                "sukebei",
+                "hitomi.la",
+                "rule34",
+                "gelbooru",
+                "fanbox",
+                "dlsite"
+            ],
             "networkNameKeywords": [
                 "airport",
                 "cafe",
