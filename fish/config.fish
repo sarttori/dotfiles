@@ -158,7 +158,9 @@ alias fapesp="cd ~/Documents/Usp/IC/Fapesp/relatorioFAPESP/"
 
 function fromtextogit
 	unzip Relatório_FAPESP.zip
+	rm -rf Relatório_FAPESP.zip
 	git add .
 	git commit -m "Updates"
 	git push -f origin main
+
 end
