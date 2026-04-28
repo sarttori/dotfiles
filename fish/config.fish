@@ -43,7 +43,7 @@ end
 # My Aliases & Functions
 alias ic="cd ~/Projects/eta-car-photometry/"
 alias classes="cd ~/Projects/Classes/" 
-alias entervenv="source venv/bin/activate.fish"
+alias entervenv="source venv/bin/activate.fish & echo "running!""
 
 function mkvenv
 	python -m venv venv
@@ -107,12 +107,12 @@ function c
 end
 
 function github
-	nohup microsoft-edge-stable "https://github.com/sarttori" >/dev/null 2>&1 & disown
+	nohup zen-browser "https://github.com/sarttori" >/dev/null 2>&1 & disown
 	kill -9 $fish_pid
 end
 
 function wpp
-	nohup microsoft-edge-stable "https://web.whatsapp.com/" >/dev/null 2>&1 & disown
+	nohup zen-browser "https://web.whatsapp.com/" >/dev/null 2>&1 & disown
 	kill -9 $fish_pid
 end
 
