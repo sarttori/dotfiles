@@ -42,9 +42,3 @@ map ctrl+kp_0 change_font_size all 0
 #background #1C1C1C
 #background #000000
 background_opacity 1.0
-
-
-# BEGIN_KITTY_THEME
-# 3024 Night
-include current-theme.conf
-# END_KITTY_THEME
