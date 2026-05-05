@@ -148,6 +148,12 @@ function sync-dots
 
     cp "$SRC/chrome-flags.conf" "$DEST/" 2>/dev/null
     cp "$SRC/microsoft-edge-stable-flags.conf" "$DEST/" 2>/dev/null
+    
+    cd ~/Documents/GitHub/dotfiles/
+
+    git add .
+    git commit -m "Updates"
+    git push -f origin main
 
     echo "Done!"
 end
