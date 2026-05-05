@@ -164,3 +164,5 @@ function fromtextogit
 	git push -f origin main
 
 end
+
+alias d0="shutdown now"
