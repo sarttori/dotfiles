@@ -166,3 +166,17 @@ function fromtextogit
 end
 
 alias d0="shutdown now"
+
+function kodak
+	killall gvfs-gphoto2-volume-monitor gvfsd-gphoto2 gvfs-mtp-volume-monitor 2>/dev/null
+	sleep 1
+	lsusb
+	gphoto2 --list-files
+	gphoto2 --get-all-files --skip-existing
+
+	if test $status -e1 0
+		echo "Done!"
+	else
+		echo "Please, try again."
+	end
+end
